@@ -1,0 +1,42 @@
+/* Le cambiamos el tipo de fuente a los elementos dentro del body*/
+body{
+  font-family: sans-serif;
+}
+/*Seleccionamos la lista desordenada*/
+ul{
+  /*Le quitamos la viñeta*/
+  list-style: none;
+  /*Le cambiamos el color de fondo*/
+  background-color: #2e2e2a;
+  /*Le aumentamos el espacio entre líneas*/
+  line-height: 40px;
+  /*Le quitamos el relleno que viene por defecto*/
+  padding: 0;
+  /*Le devolvemos su naturalezo de bloque, el cual fue alterado por la propiedad float*/
+  overflow: auto;
+}
+/*Seleccionamos los elementos lista*/
+li{
+/*Le cambiamos el ancho*/
+  width: 100px;
+/*Le añadimos la propiedad float para que cada elemento se posicione al lado del otro*/
+  float: left;
+/*Centramos el texto*/
+  text-align: center;
+}
+/*Seleccionamos los enlaces*/
+a{
+/*Le quitamos el subrayado*/
+  text-decoration: none;
+/*Le cambiamos el color a blanco*/
+  color: #fff;
+/*Le cambiamos el tipo de elemento a bloque para que su tamaño deje de ser el de su contenido y pueda ser alterado*/
+  display: block;
+}
+/*Usamos un pseudocódigo para darle efecto al enlace al momento de sobrevolarlo con el cursor*/
+a:hover{
+/*Le cambiamos el color de fondo por el amarillo Laboratoria*/
+  background-color: #f9a91a;
+/*Le cambiamos el color de fuente a negro*/
+  color: #000;
+}
